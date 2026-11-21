@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 go mod tidy
 rm -rf dist
 mkdir -p dist
