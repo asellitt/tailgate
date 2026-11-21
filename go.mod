@@ -1,4 +1,4 @@
-module jellyfin-proxy
+module tailgate
 
 go 1.23.1
 
