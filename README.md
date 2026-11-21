@@ -40,7 +40,7 @@ Get the latest build from the **[Releases page](https://github.com/asellitt/tail
 
 ## Usage (the person running it)
 
-1. Download the file for your system and run it. Your browser opens at `http://localhost:8099`.
+1. Download the file for your system and run it. Your browser opens at `http://localhost:9473`.
 2. Paste the auth key.
 3. Add one row per service: **tailnet host**, **port**, and optionally a **local port** (defaults to the same as the port; only set it if two hosts share a port).
 4. Click **Start**. The page then shows an address per row, like `192.168.1.50:8096`. Enter that address on the TV or device.
@@ -83,7 +83,7 @@ SmartScreen will warn about an unsigned app: click More info, then Run anyway. A
 chmod +x tailgate-linux-amd64
 ```
 
-For a headless box (Pi, mini PC), run `--install`, then open `http://localhost:8099` from a browser on that machine, or tunnel the port over SSH: `ssh -L 8099:127.0.0.1:8099 user@host`.
+For a headless box (Pi, mini PC), run `--install`, then open `http://localhost:9473` from a browser on that machine, or tunnel the port over SSH: `ssh -L 9473:127.0.0.1:9473 user@host`.
 
 ## Where settings live
 

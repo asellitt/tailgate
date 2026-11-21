@@ -22,7 +22,7 @@ import (
 
 const (
 	appName = "tailgate"
-	uiAddr  = "127.0.0.1:8099"
+	uiAddr  = "127.0.0.1:9473"
 )
 
 // Forward exposes Host:Port (on the tailnet) on this machine's LAN at LocalPort.
