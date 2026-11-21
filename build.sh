@@ -1,5 +1,4 @@
 #!/bin/sh
-# Run on your dev machine (needs Go 1.22+ and internet access for modules).
 set -e
 cd "$(dirname "$0")"
 go mod tidy
