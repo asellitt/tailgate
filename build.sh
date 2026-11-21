@@ -3,6 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 go mod tidy
+rm -rf dist
 mkdir -p dist
 GOOS=darwin  GOARCH=arm64 go build -o dist/jellyfin-proxy-mac-arm64 .
 GOOS=darwin  GOARCH=amd64 go build -o dist/jellyfin-proxy-mac-intel .
